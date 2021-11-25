@@ -1,0 +1,69 @@
+<HTML>
+<head><title>Complaints</title>
+
+<link rel="stylesheet" type="text/css" href="stylesheet.css" >
+
+
+
+</head>
+<body background="blueshades3.jpg">
+<center>
+
+
+<image src="smartgram.png" width=550 height=100 >
+<br><br>
+
+<big><B><center>
+COMPLAINT</center></B></big>
+
+<BR/><BR/>
+
+
+
+<form action="complaintbe.php" method="post" onSubmit="required()">
+<table border="0" cellspacing="0" cellpadding="10">
+<tr>
+<td>Name:</td>
+<td><input type="text" placeholder="Name" name="uname" required/></td>
+</tr>
+<tr>
+<td>Aadhar Number:</td>
+<td><input type="text" placeholder="Aadhar Number" name="aadharno" required/></td>
+</tr>
+<tr>
+<td>Ward number:</td>
+<td><input type="text"placeholder="Ward number" name="wardno" required></td></tr>
+
+<tr>
+<td>About:</td>
+<td><select name="about" required>
+<option>   </option>
+<option value="Non Burning of Street Light">Non Burning of Street Light</option>
+<option value="Drainage Over Flow ">Drainage Over Flow </option>
+<option value="Drinking Water Supply">Drinking Water Supply</option>
+<option value="Dog menace">Dog menace</option>
+<option value="Others">Others</option>
+
+
+
+
+
+
+</select>
+</td>
+</tr>
+<tr>
+<td>Description:</td>
+<td><textarea rows="5" cols="20" placeholder="describe your complaint" name="des"></textarea></td>
+</tr>
+<tr>
+<td><input type="submit" value="submit"></td>
+<td> &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;<input type="reset" value="cancel">&nbsp;&nbsp;
+</td>
+</tr>
+</table>
+</form>
+
+</center>
+</body>
+</HTML>

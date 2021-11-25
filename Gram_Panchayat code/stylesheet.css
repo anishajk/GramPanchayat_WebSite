@@ -1,0 +1,41 @@
+big
+{
+	font-size:36px;
+	font-family:
+	Tahoma, Geneva, sans-serif;
+	color:#636;
+	}
+	
+	
+FORM
+{
+	font-size:18px;
+	font-family:"Arial Black", Gadget, sans-serif;
+	}
+
+input[type=text], input[type=password],textarea,select {
+  width: 400px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+
+input[type=submit],input[type=reset], input[type=button] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width:200px;
+}
+  
+	
+	
+	
+	
+	
+	
